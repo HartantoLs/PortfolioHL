@@ -20,7 +20,7 @@ export default function AboutPage() {
             <div className="relative w-48 h-48 sm:w-56 sm:h-56 lg:w-64 lg:h-64 shrink-0">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-accent/20 rounded-3xl rotate-6 blur-sm" />
               <div className="relative w-full h-full bg-card rounded-3xl overflow-hidden border-4 border-primary/20 shadow-2xl shadow-primary/20">
-                <img src="/professional-portrait.png" alt="Hartanto Luwis" className="w-full h-full object-cover" />
+                <img src="/selfphoto.jpg" alt="Hartanto Luwis" className="w-full h-full object-cover" />
               </div>
             </div>
 

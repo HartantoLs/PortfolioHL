@@ -15,26 +15,30 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Hartanto Luwis - Full-Stack Developer & Data Enthusiast",
+  title: "Porftolio Hartanto Luwis",
   description:
     "Portfolio of Hartanto Luwis, Information Systems student at ITB specializing in web development, data analytics, and AI",
-  generator: "v0.app",
   icons: {
     icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+    other: [
       {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
+        rel: "icon",
+        url: "/icon-192.png",
+        sizes: "192x192",
+        type: "image/png",
       },
       {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
+        rel: "icon",
+        url: "/icon-512.png",
+        sizes: "512x512",
+        type: "image/png",
       },
     ],
-    apple: "/apple-icon.png",
   },
 }
 

@@ -24,9 +24,13 @@ export function Navigation() {
           <div className="flex items-center justify-between h-16 sm:h-20">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2 group">
-              <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center font-bold text-primary-foreground shadow-lg shadow-primary/30 group-hover:scale-110 transition-transform duration-300">
-                HL
-              </div>
+              <img
+                src="/hl-logo.png"
+                alt="HL Logo"
+                width={70}
+                height={70}
+                className="transition-transform duration-300 group-hover:scale-110"
+              />
               <span className="hidden sm:block text-lg font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                 Hartanto Luwis
               </span>
