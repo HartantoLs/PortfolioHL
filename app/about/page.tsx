@@ -157,7 +157,7 @@ export default function AboutPage() {
             </div>
 
             <div className="pt-4 sm:pt-8 flex justify-center md:justify-start">
-              <Link href="https://drive.google.com/your-cv-link" target="_blank" className="inline-block">
+              <Link href="https://drive.google.com/file/d/1Mbg842HwAWMLDN5nrwTx7gfdqtJ7NQOZ/view?usp=sharing" target="_blank" className="inline-block">
                 <Button
                   size="lg"
                   className="text-base sm:text-lg bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30 hover:scale-105 transition-all duration-300"
